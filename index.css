@@ -1,0 +1,129 @@
+
+/* General styles */
+
+.why-choose-us {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.why-choose-us .features {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.why-choose-us .feature {
+    flex-basis: calc(50% - 50px);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us .feature h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.why-choose-us .feature p {
+    color: #666;
+    margin-top: 10px;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-heading {
+    margin-bottom: 20px;
+}
+
+.footer-heading h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-heading a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-heading a:hover {
+    color: rgba(255, 0, 0, 0.575);
+    transition: 0.3s ease-out;
+
+}
+
+.footer-email-form {
+    margin-top: 20px;
+}
+
+.footer-email-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-email {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#footer-email-btn {
+    width: 80%;
+    padding: 10px;
+    background-color: aqua; 
+    color: black; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+#footer-email-btn:hover {
+    background-color: #7fffd4; 
+}
+
+.footer-3 img {
+    width: 19px; 
+    height: auto; 
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+    }
+}
+
+.footerBottom{
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
